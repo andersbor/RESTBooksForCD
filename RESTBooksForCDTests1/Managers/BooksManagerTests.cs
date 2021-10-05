@@ -1,20 +1,18 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RESTBooksForCD.Managers;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using RESTBooksForCD.Models;
 
 namespace RESTBooksForCD.Managers.Tests
 {
-    [TestClass()]
+    [TestClass]
     public class BooksManagerTests
     {
-        [TestMethod()]
+        [TestMethod]
         public void GetAllTest()
         {
-            Assert.Fail();
+            BooksManager manager = new BooksManager();
+            List<Book> allBooks = manager.GetAll();
+            Assert.AreEqual(2, allBooks.Count);
         }
     }
 }
