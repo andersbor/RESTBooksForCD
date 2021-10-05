@@ -13,6 +13,11 @@ namespace RESTBooksForCD.Managers.Tests
             BooksManager manager = new BooksManager();
             List<Book> allBooks = manager.GetAll();
             Assert.AreEqual(2, allBooks.Count);
+
+            Book book = manager.GetById(1);
+            Assert.AreEqual("Android Programming", book.Title);
+
+            Assert.IsNull(manager.GetById(-1));
         }
     }
 }
