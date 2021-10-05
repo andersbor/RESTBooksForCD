@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTBooksForCD", "RESTBooksForCD\RESTBooksForCD.csproj", "{2EE51455-6E1E-4A4C-BC20-AFC2299A22A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTBooksForCDTests1", "RESTBooksForCDTests1\RESTBooksForCDTests1.csproj", "{9B3487AA-4C7B-4938-BEB1-1EA8AEE58DFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EE51455-6E1E-4A4C-BC20-AFC2299A22A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE51455-6E1E-4A4C-BC20-AFC2299A22A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE51455-6E1E-4A4C-BC20-AFC2299A22A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE51455-6E1E-4A4C-BC20-AFC2299A22A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B3487AA-4C7B-4938-BEB1-1EA8AEE58DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3487AA-4C7B-4938-BEB1-1EA8AEE58DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3487AA-4C7B-4938-BEB1-1EA8AEE58DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3487AA-4C7B-4938-BEB1-1EA8AEE58DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEC97334-FE5F-4767-B01B-65BB563608F7}
+	EndGlobalSection
+EndGlobal
