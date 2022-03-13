@@ -19,5 +19,11 @@ namespace RESTBooksForCD.Managers.Tests
 
             Assert.IsNull(manager.GetById(-1));
         }
+
+        [TestMethod]
+        public void AddTest()
+        {
+            Assert.Fail();
+        }
     }
 }
