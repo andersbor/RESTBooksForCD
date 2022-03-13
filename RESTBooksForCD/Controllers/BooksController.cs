@@ -29,8 +29,9 @@ namespace RESTBooksForCD.Controllers
 
         // POST api/<BooksController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public Book Post([FromBody] Book value)
         {
+            return _manager.Add(value);
         }
 
         // PUT api/<BooksController>/5

@@ -24,5 +24,12 @@ namespace RESTBooksForCD.Managers
             return Data.FirstOrDefault(book => book.Id == id);
         }
 
+        public Book Add(Book book)
+        {
+            book.Id = _nextId++;
+            Data.Add(book);
+            return book;
+        }
+
     }
 }
