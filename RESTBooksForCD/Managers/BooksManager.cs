@@ -31,5 +31,13 @@ namespace RESTBooksForCD.Managers
             return book;
         }
 
+        public Book Delete(int id)
+        {
+            Book b = Data.FirstOrDefault(book => book.Id == id);
+            if (b == null) return null;
+            Data.Remove(b);
+            return b;
+        }
+
     }
 }
