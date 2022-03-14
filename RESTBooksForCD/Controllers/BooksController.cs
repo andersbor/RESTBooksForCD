@@ -26,11 +26,11 @@ namespace RESTBooksForCD.Controllers
         }
 
         // POST api/<BooksController>
-        /*[HttpPost]
+        [HttpPost]
         public Book Post([FromBody] Book value)
         {
             return _manager.Add(value);
-        }*/
+        }
 
         // DELETE api/<BooksController>/5
         /*[HttpDelete("{id}")]
